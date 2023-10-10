@@ -18,6 +18,7 @@ variable "tags" {
 variable "vpc_id" {
   description = "All outbound DNS queries will flow through this VPC on the way from other VPCs. You can't change this value after you create an endpoint."
   type        = string
+  default     = null
 }
 
 variable "create_sg" {

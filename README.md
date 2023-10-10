@@ -38,7 +38,7 @@ No requirements.
 | <a name="input_sg_name"></a> [sg\_name](#input\_sg\_name) | Security group name | `string` | `"sgr-route53"` | no |
 | <a name="input_sg_tags"></a> [sg\_tags](#input\_sg\_tags) | Security group tags | `map(string)` | `{}` | no |
 | <a name="input_tags"></a> [tags](#input\_tags) | Tags | `map(string)` | `{}` | no |
-| <a name="input_vpc_id"></a> [vpc\_id](#input\_vpc\_id) | All outbound DNS queries will flow through this VPC on the way from other VPCs. You can't change this value after you create an endpoint. | `string` | n/a | yes |
+| <a name="input_vpc_id"></a> [vpc\_id](#input\_vpc\_id) | All outbound DNS queries will flow through this VPC on the way from other VPCs. You can't change this value after you create an endpoint. | `string` | `null` | no |
 
 ## Outputs
 
